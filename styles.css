@@ -8,6 +8,22 @@ body {
  padding: 13px;
 }
 
+h2 {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+/* CSSに追加 */
+.service-heading {
+  border-left: 4px solid #3498db;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin: 1em 0;
+  color: #333;
+}
+
 .custom-list {
   list-style: none;
   background-color: #3498db;
@@ -41,6 +57,7 @@ body {
 
 /* 章区切り */
 .chapter {
+  margin-top: 0.2em;
   /* 太さを2ピクセルに設定 */
   height: 3px;
   /* デフォルトのボーダーを削除 */
