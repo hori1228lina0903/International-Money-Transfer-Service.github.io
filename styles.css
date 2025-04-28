@@ -1,0 +1,113 @@
+/* スタイルを定義 */
+body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ line-height: 1.5;
+ color: #333;
+ max-width: 1200px;
+ margin: 0;
+ padding: 13px;
+}
+
+.custom-list {
+  list-style: none;
+  background-color: #3498db;
+  padding: 15px;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+.custom-list h3 {
+  margin: 0 0 8px 0; /* 上 | 右 | 下 | 左 */
+  padding: 0;
+}
+.custom-list hr.section {
+  margin: 8px 0; /* 上下の余白を8pxに */
+  height: 3px;
+  border: none;
+  background-color: #607D8B;
+}
+.custom-list li {
+  background-color: white;
+  margin: 10px;
+  position: relative; /* ::before 擬似要素の位置調整用 */
+  padding-left: 20px; /* ◆マークのためのスペース */
+}
+
+.custom-list li::before {
+  content: "◆";
+  position: absolute;
+  left: 5px;
+  color: #3498db;
+}
+
+/* 章区切り */
+.chapter {
+  /* 太さを2ピクセルに設定 */
+  height: 3px;
+  /* デフォルトのボーダーを削除 */
+  border: none;
+  /* 線の色を設定 */
+  background-color: #3498db;
+}
+.section {
+  /* 太さを2ピクセルに設定 */
+  height: 3px;
+  /* デフォルトのボーダーを削除 */
+  border: none;
+  /* 線の色を設定 */
+  background-color: #607D8B;
+}
+
+/* 全テーブル基本設定 */
+table {
+  margin: 2rem auto;  /* 上下に余白、左右自動で中央寄せ */
+  border-collapse: collapse;
+  width: 90%;        /* 適切な幅に調整 */
+  max-width: 1000px; /* 最大幅を制限 */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 軽い影 */
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+  table {
+    width: 98%;
+    margin: 1rem auto;
+    font-size: 0.9em;
+  }
+}
+
+.table-scroll-container {
+  width: 100%;
+  overflow-x: auto; /* 横スクロールを有効化 */
+  -webkit-overflow-scrolling: touch; /* iOSでスムーズスクロール */
+  margin: 20px 0;
+  border: 1px solid #ddd; /* オプションの境界線 */
+  border-radius: 4px; /* 角丸 */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 影 */
+}
+
+.responsive-table-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* iOSでのスクロールをスムーズに */
+  margin: 1rem 0;
+}
+
+.responsive-table {
+  font-size: 12px;
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  white-space: nowrap; /* セル内のテキストを折り返さない */
+}
+
+.responsive-table th, 
+.responsive-table td {
+  padding: 6px 10px;
+  text-align: left;
+  border: 1px solid #D3D3D3;
+}
+
+.responsive-table th {
+  background-color: #A9A9A9;
+  font-weight: 600;
+}
