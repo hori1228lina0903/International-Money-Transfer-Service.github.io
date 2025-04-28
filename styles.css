@@ -15,7 +15,7 @@ h2 {
 }
 
 /* CSSに追加 */
-.service-heading {
+p.service-heading {
   border-left: 4px solid #3498db;
   padding-left: 15px;
   font-weight: bold;
