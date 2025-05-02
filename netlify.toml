@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://hori1228lina0903.github.io/International-Money-Transfer-Service.github.io/*"
+  to = "https://international-money-transfer-service.netlify.app/:splat"
+  status = 301
+  force = true
