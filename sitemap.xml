@@ -2,8 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://international-money-transfer-service.netlify.app/</loc>
-    <lastmod>2024-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2025-05-04</lastmod>
+  </url>
+  <url>
+    <loc>https://international-money-transfer-service.netlify.app/privacy</loc>
+    <lastmod>2025-05-04</lastmod>
+  </url>
+  <url>
+    <loc>https://international-money-transfer-service.netlify.app/terms</loc>
+    <lastmod>2025-05-04</lastmod>
+  </url>
+  <url>
+    <loc>https://international-money-transfer-service.netlify.app/disclaimer</loc>
+    <lastmod>2025-05-04</lastmod>
   </url>
 </urlset>
