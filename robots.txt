@@ -1,1 +1,3 @@
+User-agent: *
+Allow: /
 Sitemap: https://international-money-transfer-service.netlify.app/sitemap.xml
