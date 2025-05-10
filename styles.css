@@ -184,3 +184,68 @@ footer {
   text-decoration: none;
   font-weight: 500;
 }
+
+/* ベース画像スタイル */
+.official_site_image .o_s_img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+/* ホバー時のアニメーション */
+.image-link:hover .o_s_img {
+  transform: scale(1.02);
+}
+
+/* レスポンシブ調整（任意で中央寄せなど） */
+.image-link {
+  max-width: 600px;   /* 最大幅 */
+  margin: 0 auto;     /* 中央寄せ */
+  display: block;
+}
+
+/* スマホ対応 */
+@media screen and (max-width: 768px) {
+  .image-link {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}
+
+.official_link_box {
+  border: 2px solid #0077cc;
+  border-radius: 12px;
+  padding: 16px 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #f0f8ff;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.official_link_box a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.official_link_box a:hover {
+  color: #005999;
+  text-decoration: underline;
+}
+
+/* スマホ対応 */
+@media screen and (max-width: 768px) {
+  .official_link_box {
+    padding: 14px 15px;
+  }
+
+  .official_link_box a {
+    font-size: 16px;
+  }
+}
