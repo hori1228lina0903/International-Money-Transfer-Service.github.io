@@ -25,6 +25,13 @@
            height: auto;
          }
        }
+    summary::-webkit-details-marker {
+      display: none;
+    }
+    summary {
+      list-style: none;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -52,6 +59,14 @@
 <li>
 <a href="#section4">海外送金サービス一覧</a>
 </li>
+ <li>
+    <details>
+      <summary>国別の送金方法とおすすめサービス</summary>
+      <ul class="custom-list">
+        <li><a href="/send-money-to-philippines.html">フィリピンへの送金方法とおすすめサービス</a></li>
+      </ul>
+    </details>
+  </li>
 <li>
 <a href="#section5">まとめ</a>
 </li>
